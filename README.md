@@ -225,7 +225,7 @@
             <h2>Despre Doamna Doctor</h2>
             <div class="doctor-profile">
                 <img src="https://exemplu.com/poza-doctor.jpg" alt="Doamna Doctor" class="doctor-img">
-                <h3>Dr. Maria Popescu</h3>
+                <h3>Dr. Dancila Alexandra Elena </h3>
                 <p>Medic Veterinar, Specializat în chirurgie veterinară și medicină internă.</p>
             </div>
         </section>
