@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Moon Veterinary - Cabinet Medical Veterinar. Oferim consultații, vaccinări și tratamente pentru animalele de companie.">
+    <meta name="keywords" content="veterinar, consultații animale, deparazitări, vaccinări, tratamente, cabinet veterinar, Deva, animale de companie">
     <title>Moon Veterinary - Cabinet Medical Veterinar</title>
     <style>
         body {
@@ -48,7 +50,9 @@
             border-radius: 5px;
         }
         .hero {
-            background-color: #4a90e2; /* Culoare de fundal temporară */
+            background-image: url('https://via.placeholder.com/1200x600'); /* Imagine de fundal */
+            background-size: cover;
+            background-position: center;
             height: 60vh;
             color: white;
             display: flex;
@@ -66,7 +70,7 @@
         .services {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap; /* Afișare flexibilă pentru mobil */
+            flex-wrap: wrap;
         }
         .service {
             background-color: #f0f0f0;
@@ -74,8 +78,14 @@
             margin: 10px;
             border-radius: 5px;
             text-align: center;
-            flex: 1 1 calc(25% - 20px); /* Ajustează lățimea pe desktop */
+            flex: 1 1 calc(25% - 20px);
             box-sizing: border-box;
+        }
+        .service img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
         }
         footer {
             background-color: #333;
@@ -83,8 +93,30 @@
             text-align: center;
             padding: 10px 0;
         }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
-        /* Media Queries pentru ecrane mai mici */
         @media (max-width: 768px) {
             header {
                 flex-direction: column;
@@ -101,13 +133,10 @@
                 flex-direction: column;
             }
             .service {
-                flex: 1 1 100%; /* Ajustează lățimea pe mobil */
+                flex: 1 1 100%;
             }
             .hero {
-                height: 40vh; /* Dimensiune mai mică pentru mobil */
-            }
-            .btn {
-                padding: 10px;
+                height: 40vh;
             }
         }
     </style>
@@ -140,22 +169,42 @@
             <h2>Servicii oferite</h2>
             <div class="services">
                 <div class="service">
+                    <img src="https://via.placeholder.com/150/0000FF/808080?text=Consultatii" alt="Consultații">
                     <h3>Consultații</h3>
                     <p>Consultații complete și personalizate.</p>
                 </div>
                 <div class="service">
+                    <img src="https://via.placeholder.com/150/FF0000/FFFFFF?text=Deparazitari" alt="Deparazitări">
                     <h3>Deparazitări</h3>
                     <p>Deparazitări interne și externe.</p>
                 </div>
                 <div class="service">
+                    <img src="https://via.placeholder.com/150/00FF00/FFFFFF?text=Vaccinari" alt="Vaccinări">
                     <h3>Vaccinări</h3>
                     <p>Vaccinări pentru sănătatea animalelor tale.</p>
                 </div>
                 <div class="service">
+                    <img src="https://via.placeholder.com/150/FFA500/FFFFFF?text=Tratamente" alt="Tratamente">
                     <h3>Tratamente</h3>
                     <p>Tratamente adaptate fiecărei situații.</p>
                 </div>
             </div>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <h2>Contactează-ne</h2>
+            <form action="#" method="post">
+                <label for="name">Nume</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mesaj</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Trimite</button>
+            </form>
         </section>
 
         <footer>
