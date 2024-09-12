@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Moon Veterinary - Cabinet Medical Veterinar. Oferim consultații, vaccinări și tratamente pentru animalele de companie.">
-    <meta name="keywords" content="veterinar, consultații animale, deparazitări, vaccinări, tratamente, cabinet veterinar, Deva, animale de companie">
-    <title>Moon Veterinary - Cabinet Medical Veterinar</title>
+    <meta name="description" content="Moon Veterinary - Cabinet Medical Veterinar în Deva. Oferim consultații, vaccinări, deparazitări și tratamente pentru animalele de companie.">
+    <meta name="keywords" content="cabinet veterinar Deva, veterinar, consultații animale, vaccinări animale, deparazitări, medic veterinar Deva, animale de companie, tratamente veterinare">
+    <meta name="robots" content="index, follow">
+    <title>Moon Veterinary - Cabinet Medical Veterinar Deva</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
@@ -84,8 +85,8 @@
             position: relative;
             z-index: 2;
         }
-        .hero h2 {
-            font-size: 3rem;
+        .hero h1 {
+            font-size: 3.5rem;
             margin: 0;
         }
         .hero p {
@@ -192,6 +193,25 @@
             margin-top: 40px;
         }
     </style>
+    <!-- SEO Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VeterinaryCare",
+      "name": "Moon Veterinary",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Strada Exemplu 10",
+        "addressLocality": "Deva",
+        "addressRegion": "HD",
+        "postalCode": "330000"
+      },
+      "telephone": "+407322287057",
+      "description": "Cabinet Medical Veterinar care oferă consultații, vaccinări și tratamente pentru animalele de companie.",
+      "openingHours": "Mo-Fr 08:00-18:00",
+      "url": "https://moonveterinary.ro"
+    }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -215,7 +235,7 @@
         <section class="hero">
             <div class="hero-overlay"></div>
             <div class="hero-content">
-                <h2>Îngrijim prietenii tăi necuvântători din 2022</h2>
+                <h1>Îngrijim prietenii tăi necuvântători din 2022</h1>
                 <p>Consultații și tratamente personalizate pentru animalele tale de companie.</p>
                 <a href="#servicii" class="btn">Află mai multe</a>
             </div>
@@ -224,8 +244,8 @@
         <section id="doctor">
             <h2>Despre Doamna Doctor</h2>
             <div class="doctor-profile">
-                <img src="https://exemplu.com/poza-doctor.jpg" alt="Doamna Doctor" class="doctor-img">
-                <h3>Dr. Dancila Alexandra Elena </h3>
+                <img src="https://exemplu.com/poza-doctor.jpg" alt="Dr. Dancila Alexandra Elena - Medic Veterinar" class="doctor-img">
+                <h3>Dr. Dancila Alexandra Elena</h3>
                 <p>Medic Veterinar, Specializat în chirurgie veterinară și medicină internă.</p>
             </div>
         </section>
@@ -234,19 +254,42 @@
             <h2>Servicii oferite</h2>
             <div class="services">
                 <div class="service">
-                    <img src="https://via.placeholder.com/150/0000FF/808080?text=Consultatii" alt="Consultații">
+                    <img src="https://via.placeholder.com/150/0000FF/808080?text=Consultatii" alt="Consultații veterinar Deva">
                     <h3>Consultații</h3>
                     <p>Consultații complete și personalizate.</p>
                 </div>
                 <div class="service">
-                    <img src="https://via.placeholder.com/150/FF0000/FFFFFF?text=Vaccinari" alt="Vaccinări">
+                    <img src="https://via.placeholder.com/150/FF0000/FFFFFF?text=Vaccinari" alt="Vaccinări animale Deva">
                     <h3>Vaccinări</h3>
                     <p>Vaccinări pentru sănătatea animalelor tale.</p>
                 </div>
                 <div class="service">
-                    <img src="https://via.placeholder.com/150/FF0000/FFFFFF?text=Deparazitari" alt="Deparazitări">
+                    <img src="https://via.placeholder.com/150/FF0000/FFFFFF?text=Deparazitari" alt="Deparazitări animale">
                     <h3>Deparazitări</h3>
                     <p>Deparazitări interne și externe.</p>
                 </div>
-                <div class="service">
-                    <img src="https://via.placeholder.com/150/
+            </div>
+        </section>
+
+        <section id="orar">
+            <h2>Orar</h2>
+            <ul>
+                <li>Luni-Vineri: <strong>08:00 - 18:00</strong></li>
+                <li>Sâmbătă: <strong>09:00 - 13:00</strong></li>
+                <li>Duminică: <strong>Închis</strong></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Ne poți contacta la telefon: <strong>+407322287057</strong></p>
+            <p>Ne găsești pe <a href="https://m.facebook.com/p/Moon-Veterinary-100083518988337/" target="_blank">Facebook</a> și <a href="https://wa.me/407322287057" target="_blank">WhatsApp</a>.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.7486848283524!2d-122.08219468468194!3d37.38521897982844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb0b060beff91%3A0x94e3e49cd473d18!2sGoogleplex!5e0!3m2!1sen!2sus!4v1609990821838!5m2!1sen!2sus"></iframe>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Moon Veterinary. Toate drepturile rezervate.</p>
+        </footer>
+    </div>
+</body>
+</html>
